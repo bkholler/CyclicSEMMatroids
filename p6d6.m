@@ -152,4 +152,4 @@ Print[lengthlist];
 ];
 
 lengthlist
-Export["p6d11.wdx",{seqlist, lengthlist},"WDX"];
+Export["p6d6.wdx",{seqlist, lengthlist},"WDX"];
