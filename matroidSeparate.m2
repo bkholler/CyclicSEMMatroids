@@ -19,9 +19,9 @@ basisSeparate = {fieldChar => nextPrime(100000), matroidRank => null, trials => 
   		if rank(numJ1_S) == d and rank(numJ2_S) < d then(
 
   			if rank(J2_S) < d then return {S, d, rank(numJ2_S)};
-  			
+
   			)
-  		else if rank(numJ1_S) < d and rank(numJ1_S) == d then(
+  		else if rank(numJ1_S) < d and rank(numJ2_S) == d then(
 
   			if rank(J1_S) < d then return {S, rank(numJ1_S), d};
   				
